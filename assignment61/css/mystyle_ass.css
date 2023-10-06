@@ -1,0 +1,51 @@
+*
+    {
+        border: 0;
+        margin: 0;
+        padding: 0;
+        background-color: #FFF;
+    }
+body
+    {
+        width: 800px;
+        margin: auto;
+    }
+img
+    {
+        width: 100px;
+    }
+
+/* MAIN MENU */
+#mainmenu > a
+    {
+        width: 20%;
+        height: 100%;
+        float: left;
+    }
+#mainmenu > a > img
+    {
+        display: block;
+        margin: auto;
+        height: 100%;
+    }
+#mainmenu > ul
+    {
+        width:60%;
+        line-height: 7em;
+        float: left;
+        text-align: center;
+    }
+#mainmenu > ul > li
+    {
+        display: inline;
+    }
+#mainmenu > form
+    {
+        width: 20%;
+        line-height: 7em;
+        float: left;
+    }
+#mainmenu > form > h3
+    {
+        text-align: center;
+    }
