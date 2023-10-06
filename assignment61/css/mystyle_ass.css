@@ -62,3 +62,56 @@ img
         text-align: center;
         text-transform: uppercase;
     }
+
+main
+    {
+        clear: both;
+        width: 100%;
+    }
+main > .main_article
+    {
+        width: 50%;
+        float: left;
+    }
+main > .main_article > a
+    {
+        float: left;
+    }
+
+#company_footer
+    {
+        clear: both;
+        width: 100%
+    }
+#company_footer_section_1
+    {
+        width: 30%;
+        float: left;
+    }
+
+#company_footer_section_2
+    {
+        width: 70%;
+        float: left;
+    }
+
+#company_footer_section_2 > aside
+    {
+        width: 30%;
+        float: left;
+    }
+#company_footer_section_2 > article
+    {
+        width: 30%;
+        float: left;
+    }
+#company_footer_section_2 > section
+    {
+        width: 40%;
+        float: left;
+    }
+#company_footer_section_2 > section > a > img
+    {
+        width: 20%;
+        margin: 5%;
+    }
